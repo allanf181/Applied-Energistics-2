@@ -534,9 +534,8 @@ public class PartFormationPlane extends PartUpgradeable implements ICellContaine
 							}
 						}
 
-					if (!w.isRemote)
-					{
-                            			w.spawnEntityInWorld(result);
+			if (!w.isRemote)
+                            w.spawnEntityInWorld(result);
 					}
 				}
 				else
